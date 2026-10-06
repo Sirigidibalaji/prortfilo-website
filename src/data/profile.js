@@ -2,7 +2,7 @@
 export const profile = {
   name: 'Balaji Sirigidi',
   title: 'IT Undergraduate | ASP.NET Developer | IoT & Embedded Systems',
-  tagline: 'I build ASP.NET web applications and IoT automation systems. State-level finalist, 6-month ASP.NET intern, currently seeking fresher roles.',
+  tagline: 'I build ASP.NET web applications and IoT automation systems, and I am currently learning Java full-stack development. State-level finalist, 6-month ASP.NET intern, currently seeking fresher roles.',
   about: [
     'I am a B.Tech Information Technology student at Sasi Institute of Technology & Engineering (CGPA 7.3/10), with a prior diploma in Electronics & Communication Engineering. That mix lets me work on both software and hardware.',
     'I completed a 6-month ASP.NET Web Developer internship at Stepping Stone, where I built role-based web apps with ASP.NET MVC, Razor Pages, Entity Framework and SQL Server, and deployed them on IIS.',

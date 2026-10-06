@@ -5,7 +5,17 @@ import { profile } from './data/profile'
 export default function App() {
   return (<>
     <Navbar />
-    <main><Hero /><About /><Skills /><Experience /><Projects /><Education /><Certifications /><Achievements /><Contact /></main>
+    <main className="site-main">
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Education />
+      <Certifications />
+      <Achievements />
+      <Contact />
+    </main>
     <footer className="foot">© {new Date().getFullYear()} {profile.name}</footer>
   </>)
 }

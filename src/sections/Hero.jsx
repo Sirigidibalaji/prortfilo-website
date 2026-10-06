@@ -19,15 +19,25 @@ export default function Hero() {
             <a href={`mailto:${p.email}`} aria-label="Email"><FiMail /></a>
           </div>
         </div>
-        <div className="term" role="img" aria-label="Terminal-style illustration of a door unlock audit log">
-          <div className="term-bar"><i /><i /><i /><span>smart-door / audit.log</span></div>
-          <pre>{`[rfid]   card scanned
-[auth]   access granted
-[relay]  door unlocked
-[mqtt]   alert -> mobile
-[audit]  event logged
 
-# illustrative output`}</pre>
+        <div className="hero-visual" aria-label="Profile portrait panel">
+          <div className="profile-panel">
+            <div className="floating-badge badge-top">ASP.NET</div>
+            <div className="profile-image-wrap">
+              <img src="/profile-portrait.svg" alt="Professional portrait illustration" />
+            </div>
+            <div className="profile-details">
+              <div>
+                <span>6 Months</span>
+                <small>Internship</small>
+              </div>
+              <div>
+                <span>IoT</span>
+                <small>RFID + MQTT</small>
+              </div>
+            </div>
+            <div className="floating-badge badge-bottom">Open to roles</div>
+          </div>
         </div>
       </div>
     </section>
