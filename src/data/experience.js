@@ -13,7 +13,7 @@ export const education = [
   { degree: 'SSC', school: 'Sasi English Medium School, Tadepalligudem', period: '2019 – 2020', score: 'GPA: 9.5 / 10' },
 ]
 export const certifications = [
-  { name: 'CCNA: Introduction to Networks', org: 'Cisco Networking Academy', year: '2024–2025', domain: 'Networking' },
+
   { name: 'AICTE Embedded Virtual Lab Training', org: 'Eduskills', year: '2024', domain: 'Embedded Systems' },
   { name: 'ASP.NET Web Development', org: 'Stepping Stone', year: '2023', domain: 'Web Development' },
   { name: 'Python Programming', org: 'Lions Club', year: '2023', domain: 'Programming' },
